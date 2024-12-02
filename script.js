@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded',()=>{
-	  document.getElementById("code-1").focus();
+	 
 	 const inputs = document.querySelectorAll(".code"); 
 	inputs.forEach((input,index)=>{
 		input.addEventListener('input',(e)=>{
