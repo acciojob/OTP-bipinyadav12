@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded',()=>{
+	 document.getElementById("code-1").focused();
 	 const inputs = document.querySelectorAll(".code"); 
 	inputs.forEach((input,index)=>{
 		input.addEventListener('input',(e)=>{
@@ -19,4 +20,5 @@ document.addEventListener('DOMContentLoaded',()=>{
     });
 	})
 	
-})
+}) 
+.focused().should("have.id", "code-1");
